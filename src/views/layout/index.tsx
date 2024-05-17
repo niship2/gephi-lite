@@ -1,5 +1,6 @@
 import { FC, PropsWithChildren } from "react";
 
+import { AiChat } from "../../components/AiChats";
 import { Modals } from "../../components/modals";
 import Notifications from "../../components/notifications";
 
@@ -9,6 +10,7 @@ export const Layout: FC<PropsWithChildren> = ({ children }) => {
       <main>{children}</main>
       <Modals />
       <Notifications />
+      <AiChat />
     </div>
   );
 };

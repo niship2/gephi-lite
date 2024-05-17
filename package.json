@@ -24,6 +24,7 @@
     ]
   },
   "dependencies": {
+    "@langchain/openai": "^0.0.31",
     "@monaco-editor/react": "^4.6.0",
     "@octokit/auth-oauth-device": "^6.0.1",
     "@octokit/core": "^5.1.0",
@@ -69,6 +70,7 @@
     "is-url": "^1.2.4",
     "isomorphic-fetch": "^3.0.0",
     "iwanthue": "^2.0.0",
+    "langchain": "^0.1.37",
     "locale-emoji": "^0.3.0",
     "lodash": "^4.17.21",
     "minisearch": "^6.3.0",

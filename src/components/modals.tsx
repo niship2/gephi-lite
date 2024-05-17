@@ -41,6 +41,7 @@ export const Modal: FC<PropsWithChildren<Props>> = ({
     },
   ]);
 
+
   const content = (
     <>
       {showHeader && (
